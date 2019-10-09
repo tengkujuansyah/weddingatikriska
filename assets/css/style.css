@@ -136,13 +136,14 @@ list-style: none;
   text-decoration: none;
   font-family: 'Proxima-Regular';
   font-size: 15px;
-  background: #fff;
-  color: #000;
+  background: transparent;
+  border:2px solid white;
+  color: #fff;
   padding: 10px 18px;
 }
 .buttons ul li a:hover {
-  background: transparent;
-  color: #fff;
+  background: #fff;
+  color: #000;
   transition: 0.3s ease;
 }
 
